@@ -18,6 +18,7 @@
     text-align: center;
 }
 #carousel{
+    z-index: 0;
     margin: auto;
     margin-top: 30px;
     width:60%;
@@ -109,7 +110,7 @@
 }
 #all-products{
     width: 90vw;
-    height:100vh;
+    min-height:100vh;
     margin: auto;
     margin-top: 30px;
     background-color: #c3ffd86a;
@@ -118,4 +119,39 @@
 #all-products h1{
     margin-left: 10px;
     margin-top: 10px;
+}
+#canvas{
+    background-color: rgba(205, 255, 174, 0.472);
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    min-height: 111vh;
+}
+#serach-suggestion{
+    width: 40%;
+    padding-bottom: 10px;
+    max-height: 60%;
+    background-color: rgb(186, 224, 146);
+    display: block;
+    position: absolute;
+    left: 19.7%;
+    z-index: 1;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow-y: auto;
+    display: none;
+  
+}
+.suggestion{
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color:inherit;
+    border: 1px solid;
+    width: 98%;
+    height: 50px;
+    display: block;
 }

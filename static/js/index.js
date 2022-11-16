@@ -24,3 +24,11 @@ function change_image(direction){
         document.getElementById(image_list[x]).style="display:none";
         document.getElementById(dot_list[x]).style="background-color:rgba(0, 0, 0, 0.56);";
 }}
+
+//Search Sugestion
+var nav_search = document.getElementById("nav-search");
+
+nav_search.addEventListener("keyup",suggest)
+function suggest(){
+    alert(nav_search.value)
+}
